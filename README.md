@@ -132,7 +132,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🦸 Autor
 
 <a href="https://br.linkedin.com/in/diogolimadev">
-Diogo Lima Lucasz</a>
+Diogo Lima Lucas</a>
  <br />
  
 
