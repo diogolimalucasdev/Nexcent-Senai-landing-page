@@ -1,0 +1,589 @@
+@import url('./global.css');
+
+/* ------------ HEADER ------------ */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+}
+
+.logo {
+    padding: 30px 0px;
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-header ul a {
+    text-decoration: none;
+    color: #18191F;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn-login {
+    color: var(--color-primary);
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-SignUp {
+    color: var(--color-neutral-white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-header {
+    gap: 14px;
+    padding: 22px 0px;
+}
+
+
+
+/* ------------ FIM HEADER ------------ */
+
+/* ------------ MAIN ------------ */
+
+main {
+    display: flex;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px;
+}
+
+.content-lessons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 657px;
+}
+
+h1 {
+    font-size: 64px;
+    color: var(--color-neutral-d_grey);
+    font-weight: 600;
+}
+
+.content-lessons h1 span {
+    color: var(--color-primary);
+}
+
+
+/* ------------ FIM MAIN ------------ */
+
+/* ------------ OUR CLIENTS ------------ */
+
+.our-client {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-client p {
+    margin-top: 8px;
+}
+
+.logo-clients {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;
+    margin-top: 16px;
+}
+
+/* ------------ FIM OUR CLIENTS ------------ */
+
+/* ------------ MANAGE SYSTEM ------------ */
+
+.manage-system {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.manage-system h2 {
+    width: 542px;
+    margin: 0 auto;
+}
+
+#manage-system-subtitle {
+    margin-top: 8px;
+}
+
+.cards-container {
+    display: flex;
+    margin-top: 16px;
+    gap: 127.5px;
+    justify-content: center;
+}
+
+.cards-container article {
+    width: 299px;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.cards-container article:hover {
+    box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+    transform: translateY(-8px);
+}
+
+.cards-container article img {
+    width: 65px;
+    height: 56px;
+}
+
+.cards-container article h3 {
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 231px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.cards-container article p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ------------ FIM MANAGE SYSTEM ------------ */
+
+/* ------------ INICIO DA PIXELGRADE------------ */
+
+.pixelgrade {
+    display: flex;
+    justify-content: center;
+    gap: 49.47px;
+    margin-top: 42px;
+}
+
+/* .pixelgrade > div img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+.pixelgrade-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 601px;
+    padding: 52px;
+
+
+
+
+
+}
+
+
+.pixelgrade>.pixelgrade-content h2 {
+    width: 564px;
+}
+
+
+.pixelgrade>.pixelgrade-content p {
+    font-size: var(--font-body-3-size);
+    line-height: 20px;
+
+
+}
+
+/* ------------ FIM DO PIXELGRADE------------ */
+
+/* ------------ HELPING------------ */
+.helping-local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 204px;
+    padding: 64px;
+    margin-top: 48px;
+    background-color: var(--color-neutral-silver);
+}
+
+.helping-local>.helping-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.helping-local>.helping-content h2 {
+    width: 380px;
+
+
+}
+
+
+.helping-local>.helping-content h2 span {
+    color: var(--color-primary);
+}
+
+
+.helping-local>.helping-content p {
+    color: #18191F;
+}
+
+
+.helping-local>.helping-local-statistic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+
+
+}
+
+.helping-local>.helping-local-statistic>.helping-local-items {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+/* ------------FM DO HELPING------------ */
+
+
+
+/* ------------CALENDER------------ */
+
+.calender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0px;
+    gap: 50px;
+}
+
+.calender>.calender-content {
+
+    flex-direction: column;
+    gap: 16px;
+    font-size: var(--font-body-3-size);
+}
+
+
+.calender>.calender-content p,
+.calender-content h2 {
+    width: 601px;
+
+}
+
+
+
+/* ------------ FIM DOCALENDER------------ */
+
+
+
+/* INICIO DO SMITH */
+.smith {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 78px;
+    background-color: var(--color-neutral-silver);
+}
+
+.smith>.smith-content {
+    display: flex;
+    width: 748px;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    line-height: 24px;
+
+}
+
+.smith>.smith-content>.smith-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.smith>.smith-content>.smith-container>.smith-container-items {
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    gap: 41px;
+
+
+}
+
+.smith>.smith-content>.smith-signature {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--color-primary);
+}
+
+
+.smith>.smith-content>.smith-signature h2 {
+    color: var(--color-primary);
+    font-size: var(--font-headline-4-size);
+}
+
+
+.smith>.smith-content>.smith-signature p {
+    color: var(--color-neutral-d_grey);
+}
+
+.smith>.smith-content>.smith-container>.btn-container-navigation {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    color: var(--color-primary);
+
+
+}
+
+
+
+
+
+
+/* FIM DO SMITH */
+
+
+/*  INCIO DO CARING MARKETING */
+.caring-marketing {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+
+.caring-marketing p {
+    width: 628px;
+    margin: 0 auto;
+}
+
+.caring-marketing-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+
+.caring-marketing-card {
+    width: 368px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.caring-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 317px;
+    background-color: var(--color-neutral-silver);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.4);
+    gap: 16px;
+    position: absolute;
+    top: 190px;
+}
+
+.caring-card-content h3 {
+    font-size: var(--font-headline-4-size);
+    color: var(--color-neutral-d_grey);
+    width: 280px;
+    font-weight: var(--font-headline-4-weight);
+}
+
+
+
+
+.suscipit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 94.6px;
+    gap: 32px;
+    background-color: var(--color-neutral-silver);
+
+
+}
+
+
+.suscipit h2 {
+    width: 772px;
+    font-size: var(--font-headline-1-size);
+}
+
+.suscipit a {
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    width: 178px;
+    color: var(--color-neutral-white);
+    padding: 32px;
+    text-align: center;
+    cursor: pointer;
+    margin: 32px;
+    text-decoration: none;
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 269px;
+    padding: 64px 0px;
+
+
+
+    background-color: var(--color-neutral-black);
+
+}
+
+
+
+.copyright-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.copyright-reserved p {
+    color: var(--color-neutral-silver);
+}
+
+.copyright-reserved p:nth-of-type(1) {
+    margin-bottom: 8px;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-media>.social-icon {
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 7.47px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
+.footer-social-media>.social-icon:hover {
+
+    background-color: var(--color-primary);
+    transform: translateY(-10px);
+
+}
+
+/* inverter a cor quando o mouse passaar */
+.social-icon img:hover {
+    filter: invert();
+}
+
+.social-icon a {
+    display: flex;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 97px;
+}
+
+.footer-navigation>.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.footer-navigation>.footer-container h2 {
+    color: var(--color-neutral-white);
+    font-size: var(--font-headline-4-size);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-body-3-size);
+    text-decoration: none;
+    gap: 12px;
+}
+
+
+.footer-item {
+    text-decoration: none;
+    color: var(--color-neutral-silver);
+}
+
+.footer-links li:hover {
+    transform: translatex(10px);
+}
+
+.footer-item:hover {
+    color: var(--color-primary);
+
+}
+
+
+.footer-container form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container form input {
+    padding: 10px 12px;
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #002bab;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+
+}
+
+.footer-container form input::placeholder {
+    color: #D9DBE1;
+}
+
+
+.footer-container form button {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 7.3px 12px;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-container form button:hover{
+    background-color: var(--color-primary);
+}
