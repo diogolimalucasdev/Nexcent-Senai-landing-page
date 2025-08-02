@@ -132,10 +132,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🦸 Autor
 
 <a href="https://br.linkedin.com/in/diogolimadev">
-Matheus Maia Alvarez</a>
+Diogo Lima Lucasz</a>
  <br />
  
-[![Gmail Badge](https://img.shields.io/badge/-mthalvarez2005@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mthalvarez2005@gmail.com)](mailto:mthalvarez2005@gmail.com)
 
 ---
 
@@ -145,7 +144,5 @@ Matheus Maia Alvarez</a>
 ## 📝 Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
-
-Feito por Matheus Maia Alvarez👋🏽 [Entre em contato!](https://br.linkedin.com/in/matheus-maia-alvarez-)
 
 
